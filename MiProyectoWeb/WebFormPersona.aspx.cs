@@ -13,5 +13,10 @@ namespace MiProyectoWeb
         {
 
         }
+
+        protected void btnAceptar_Click(object sender, EventArgs e)
+        {
+            txtSalida.Text = "Bienvenido " + txtNombre.Text;
+        }
     }
 }
